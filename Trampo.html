@@ -1,0 +1,43 @@
+<DOCTYPE html>
+
+<html lang='pt'>
+
+  <head>
+      <script type="text/javascript" src="calcula.js"></script>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="aplication.css">
+  </head>
+
+  <body>
+      <div class="numero-1 letra">
+          <p>
+              Número 1
+              <input type "number" id="numUm"  name=numeroUm><br>
+          </p>
+      </div>
+      <div class="numero-2 letra">
+          <p>
+              Número 2
+              <input type "number" id="numDois" name="numeroDois"><br>
+          </p>
+      </div>
+      <div class="botao-mais">
+          <input type="button" onclick="somar()" id="botao+" value="+" style="width: 25px; height: 25px" /> <br/>
+      </div>
+      <div class="botao-menos">
+         <input type="button" onclick="diminuir()" id="botao-" value="-" style="width: 25px; height: 25px" /> <br/>
+      </div>
+      <div class="botao-dividi">
+          <input type="button" onclick="dividir()" id="botao/" value="/" style="width: 25px; height: 25px" /> <br/>
+      </div>
+      <div class="botao-multiplica">
+          <input type="button" onclick="multiplicar()" id="botao*" value="*" style="width: 25px; height: 25px" /> <br/>
+      </div>
+      <div class="resposta">
+          <p id="resultado" value="resul">
+              0
+          </p>
+      </div>
+  </body>
+
+</html>

@@ -1,0 +1,37 @@
+.botao-mais  {
+ margin-left: 630px;
+ margin-top: -10px;
+}
+
+.botao-menos {
+  margin-left: 660px;
+  margin-top: -25px;
+}
+
+.botao-dividi {
+  margin-left: 690px;
+  margin-top: -25px;
+}
+
+.botao-multiplica {
+  margin-left: 720px;
+  margin-top: -25px;
+}
+
+.resposta {
+  margin-left: 630px;
+}
+
+.numero-1 {
+  margin-left: 555px;
+  margin-top: 200px;
+}
+
+.numero-2 {
+  margin-left: 555px;
+  margin-top: -13px;
+}
+
+.letra {
+  font-family: arial;
+}
