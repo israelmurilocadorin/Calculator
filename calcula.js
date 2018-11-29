@@ -1,4 +1,4 @@
-function somar(){
+function Somar(){
   var numeroUm = parseFloat(document.getElementById("numUm").value)
   var numeroDois = parseFloat(document.getElementById("numDois").value)
   var total
@@ -12,7 +12,7 @@ function somar(){
   document.getElementById("resultado").innerHTML = total
 }
 
-function diminuir() {
+function Diminuir() {
   var numeroUm = parseFloat(document.getElementById("numUm").value)
   var numeroDois = parseFloat(document.getElementById("numDois").value)
   var total
@@ -25,7 +25,7 @@ function diminuir() {
   document.getElementById("resultado").innerHTML = total
 }
 
-function dividir() {
+function Dividir() {
   var numeroUm = parseFloat(document.getElementById("numUm").value)
   var numeroDois = parseFloat(document.getElementById("numDois").value)
   var total
@@ -39,7 +39,7 @@ function dividir() {
   document.getElementById("resultado").innerHTML = total
 }
 
-function multiplicar() {
+function Multiplicar() {
   var numeroUm = parseFloat(document.getElementById("numUm").value)
   var numeroDois = parseFloat(document.getElementById("numDois").value)
   var total
